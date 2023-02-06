@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ .header-wrapper{ max-width: 1520px;
+    margin: 0px auto;display: grid;
+    grid-template-columns: 300px 500px 720px;
+    grid-template-rows: 300px 200px 300px 100px;gap: 5px;
+    
+ }
+  .header_item{
+    border: skyblue solid 2px; background-color: blue;
+  }
+  .item_1{
+    grid-column: 1/2;
+    grid-row: 1/4;
+  }
+  .item-2{
+    grid-column: 2/4;
+   
+  }
+  .item-3{
+    grid-column: 2/3;grid-row: 2/4;
+  }
+  .item-6{
+    grid-column: 1/4;
+  }
+
